@@ -73,25 +73,16 @@ if ( ! function_exists( 'mw_starter_setup' ) ) :
 		 * Add support for core custom logo.
 		 *
 		 * @link https://codex.wordpress.org/Theme_Logo
-		 */
+		 
 		add_theme_support( 'custom-logo', array(
 			'height'      => 90,
 			'width'       => 90,
 			'flex-width'  => true,
 		) );
+        */
 	}
 endif;
 add_action( 'after_setup_theme', 'mw_starter_setup' );
-
-/**
-Remove Logo option from customizer
-**/
-function my_customize_register() {     
-global $wp_customize;
-$wp_customize->remove_section( 'fl-header-logo' );   
-} 
-
-add_action( 'customize_register', 'my_customize_register',11 );
 
 
 /**
