@@ -34,5 +34,6 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
+
+// get_sidebar();  This will remove the sidebar from pages
 get_footer();

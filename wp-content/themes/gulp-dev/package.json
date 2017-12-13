@@ -1,5 +1,5 @@
 {
-  "name": "ks-starter",
+  "name": "ksstarter",
   "version": "0.0.1",
   "description": "Accessible WordPress theme utilizing flex layouts and modern development practices.",
   "main": "index.php",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ksingh21/ks-starter"
+    "url": "https://github.com/Ksingh21/ksstarter"
   },
   "author": "Khushwant Singh",
   "license": "GPL-3.0",

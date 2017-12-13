@@ -1,0 +1,1 @@
+[13-Dec-2017 18:31:10 UTC] PHP Fatal error:  Cannot redeclare my_customize_register() (previously declared in /Users/student/Desktop/khushwant_exam/wp-content/themes/starter/functions.php:91) in /Users/student/Desktop/khushwant_exam/wp-content/themes/starter/functions.php on line 172

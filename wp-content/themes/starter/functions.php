@@ -84,6 +84,17 @@ endif;
 add_action( 'after_setup_theme', 'mw_starter_setup' );
 
 /**
+Remove Logo option from customizer
+**/
+function my_customize_register() {     
+global $wp_customize;
+$wp_customize->remove_section( 'fl-header-logo' );   
+} 
+
+add_action( 'customize_register', 'my_customize_register',11 );
+
+
+/**
  * Register custom fonts.
  */
 function mwstarter_fonts_url() {
@@ -155,6 +166,7 @@ add_action( 'widgets_init', 'mw_starter_widgets_init' );
  * Enqueue scripts and styles.
  */
  
+
 function mw_starter_scripts() {
 	/* Enqueue Google Fonts: Source Sans Pro and PT Serif */
 	wp_enqueue_style('mwstarter-fonts', 'https://fonts.googleapis.com/css?family=PT+Serif|Source+Sans+Pro:400,400i,700,900" rel="stylesheet');

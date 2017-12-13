@@ -1,4 +1,4 @@
-var themename = 'ks-starter';
+var themename = 'ksstarter';
 
 var gulp = require('gulp'),
     // Prepare and optimize code etc
